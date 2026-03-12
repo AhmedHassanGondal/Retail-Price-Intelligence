@@ -1,0 +1,14 @@
+store,city,products,avg_price,brands,categories
+Al-Fatah,Karachi,25130,9808.84,5634,482
+Al-Fatah,Lahore,25130,9808.84,5634,482
+Al-Fatah,Sialkot,25130,9808.84,5634,482
+Metro Online,Faisalabad,46305,1186.15,264,21
+Metro Online,Hyderabad,46305,1191.16,264,21
+Metro Online,Islamabad,46305,1228.71,264,21
+Metro Online,Karachi,46305,1223.76,264,21
+Metro Online,Lahore,46305,1181.41,264,21
+Naheed.pk,Faisalabad,46305,1180.66,264,21
+Naheed.pk,Islamabad,46305,1177.36,264,21
+Naheed.pk,Karachi,46305,1175.3,264,21
+Naheed.pk,Lahore,46305,1152.11,264,21
+Naheed.pk,Rawalpindi,46305,1170.4,264,21

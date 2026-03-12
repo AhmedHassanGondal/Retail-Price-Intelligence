@@ -1,0 +1,255 @@
+{
+  "product_metrics_count": 45810,
+  "rppi_count": 463062,
+  "store_metrics": [
+    {
+      "store": "Al-Fatah",
+      "total_products": 12,
+      "unique_products": 4,
+      "avg_price": 336.25,
+      "median_price": 275.0,
+      "avg_price_index": 0.552,
+      "categories": 3,
+      "brands": 4,
+      "cities": 3,
+      "median_deviation": 55.0,
+      "volatility_score": 0.0,
+      "leadership_freq": 1.0,
+      "leadership_pct": 0.0
+    },
+    {
+      "store": "Metro Online",
+      "total_products": 231525,
+      "unique_products": 45810,
+      "avg_price": 1202.235,
+      "median_price": 659.0,
+      "avg_price_index": 1.012,
+      "categories": 21,
+      "brands": 264,
+      "cities": 5,
+      "median_deviation": 428.0,
+      "volatility_score": 34.45,
+      "leadership_freq": 21823.0,
+      "leadership_pct": 47.6
+    },
+    {
+      "store": "Naheed.pk",
+      "total_products": 231525,
+      "unique_products": 45810,
+      "avg_price": 1171.168,
+      "median_price": 644.0,
+      "avg_price_index": 0.988,
+      "categories": 21,
+      "brands": 264,
+      "cities": 5,
+      "median_deviation": 418.0,
+      "volatility_score": 34.61,
+      "leadership_freq": 23986.0,
+      "leadership_pct": 52.4
+    }
+  ],
+  "ldi": {
+    "standard_ldi": {
+      "Al-Fatah": 0.0,
+      "Metro Online": 47.64,
+      "Naheed.pk": 52.36
+    },
+    "weighted_ldi": {
+      "Al-Fatah": 0.0,
+      "Metro Online": 46.76,
+      "Naheed.pk": 53.24
+    },
+    "category_ldi": {
+      "Dairy": {
+        "Al-Fatah": 100.0
+      },
+      "Cooking Ingredients": {
+        "Al-Fatah": 100.0
+      },
+      "Grocery Non Food": {
+        "Al-Fatah": 100.0
+      },
+      "Dairy & Milk": {
+        "Metro Online": 47.91,
+        "Naheed.pk": 52.09
+      },
+      "Cooking Oil & Ghee": {
+        "Metro Online": 47.33,
+        "Naheed.pk": 52.67
+      },
+      "Rice Flour & Grains": {
+        "Metro Online": 45.34,
+        "Naheed.pk": 54.66
+      },
+      "Pulses & Lentils": {
+        "Metro Online": 47.33,
+        "Naheed.pk": 52.67
+      },
+      "Spices & Masala": {
+        "Metro Online": 48.82,
+        "Naheed.pk": 51.18
+      },
+      "Sauces & Condiments": {
+        "Metro Online": 49.89,
+        "Naheed.pk": 50.11
+      },
+      "Tea & Coffee": {
+        "Metro Online": 51.26,
+        "Naheed.pk": 48.74
+      },
+      "Beverages & Drinks": {
+        "Metro Online": 51.33,
+        "Naheed.pk": 48.67
+      },
+      "Snacks & Confectionery": {
+        "Metro Online": 51.87,
+        "Naheed.pk": 48.13
+      },
+      "Noodles & Pasta": {
+        "Metro Online": 49.77,
+        "Naheed.pk": 50.23
+      },
+      "Canned & Preserved Food": {
+        "Metro Online": 47.39,
+        "Naheed.pk": 52.61
+      },
+      "Frozen Food": {
+        "Metro Online": 44.59,
+        "Naheed.pk": 55.41
+      },
+      "Personal Care": {
+        "Metro Online": 46.09,
+        "Naheed.pk": 53.91
+      },
+      "Oral Care": {
+        "Metro Online": 49.11,
+        "Naheed.pk": 50.89
+      },
+      "Deodorants & Fragrances": {
+        "Metro Online": 46.3,
+        "Naheed.pk": 53.7
+      },
+      "Household & Cleaning": {
+        "Metro Online": 41.9,
+        "Naheed.pk": 58.1
+      },
+      "Tissue & Paper Products": {
+        "Metro Online": 47.89,
+        "Naheed.pk": 52.11
+      },
+      "Baby Care": {
+        "Metro Online": 40.9,
+        "Naheed.pk": 59.1
+      },
+      "Health & Wellness": {
+        "Metro Online": 49.68,
+        "Naheed.pk": 50.32
+      },
+      "Fresh Meat & Poultry": {
+        "Metro Online": 45.03,
+        "Naheed.pk": 54.97
+      },
+      "Fresh Fruits & Vegetables": {
+        "Metro Online": 49.0,
+        "Naheed.pk": 51.0
+      }
+    }
+  },
+  "correlations": {
+    "size_vs_dispersion": {
+      "correlation": -0.1348,
+      "p_value": 0.0,
+      "interpretation": "Larger products tend to have lower price dispersion (r=-0.135, p=0.0000)"
+    },
+    "competitors_vs_spread": {
+      "correlation": -0.002,
+      "p_value": 0.6611
+    },
+    "city_correlation_matrix": {
+      "Faisalabad": {
+        "Faisalabad": 1.0,
+        "Hyderabad": 0.9011,
+        "Islamabad": 0.9302,
+        "Karachi": 0.9259,
+        "Lahore": 0.9343,
+        "Rawalpindi": 0.8939,
+        "Sialkot": 0.9317
+      },
+      "Hyderabad": {
+        "Faisalabad": 0.9011,
+        "Hyderabad": 1.0,
+        "Islamabad": 0.9022,
+        "Karachi": 0.8952,
+        "Lahore": 0.8967,
+        "Rawalpindi": 0.8701,
+        "Sialkot": 0.9818
+      },
+      "Islamabad": {
+        "Faisalabad": 0.9302,
+        "Hyderabad": 0.9022,
+        "Islamabad": 1.0,
+        "Karachi": 0.9198,
+        "Lahore": 0.9253,
+        "Rawalpindi": 0.9005,
+        "Sialkot": 0.9348
+      },
+      "Karachi": {
+        "Faisalabad": 0.9259,
+        "Hyderabad": 0.8952,
+        "Islamabad": 0.9198,
+        "Karachi": 1.0,
+        "Lahore": 0.9287,
+        "Rawalpindi": 0.8939,
+        "Sialkot": 0.9361
+      },
+      "Lahore": {
+        "Faisalabad": 0.9343,
+        "Hyderabad": 0.8967,
+        "Islamabad": 0.9253,
+        "Karachi": 0.9287,
+        "Lahore": 1.0,
+        "Rawalpindi": 0.8926,
+        "Sialkot": 0.9616
+      },
+      "Rawalpindi": {
+        "Faisalabad": 0.8939,
+        "Hyderabad": 0.8701,
+        "Islamabad": 0.9005,
+        "Karachi": 0.8939,
+        "Lahore": 0.8926,
+        "Rawalpindi": 1.0,
+        "Sialkot": 0.9977
+      },
+      "Sialkot": {
+        "Faisalabad": 0.9317,
+        "Hyderabad": 0.9818,
+        "Islamabad": 0.9348,
+        "Karachi": 0.9361,
+        "Lahore": 0.9616,
+        "Rawalpindi": 0.9977,
+        "Sialkot": 1.0
+      }
+    },
+    "cross_store_synchronization": {
+      "Al-Fatah": {
+        "Al-Fatah": 1.0,
+        "Metro Online": 0.9419,
+        "Naheed.pk": 0.9851
+      },
+      "Metro Online": {
+        "Al-Fatah": 0.9419,
+        "Metro Online": 1.0,
+        "Naheed.pk": 0.9818
+      },
+      "Naheed.pk": {
+        "Al-Fatah": 0.9851,
+        "Metro Online": 0.9818,
+        "Naheed.pk": 1.0
+      }
+    },
+    "brand_tier_vs_volatility": {
+      "correlation": 0.8793,
+      "p_value": 0.0
+    }
+  }
+}

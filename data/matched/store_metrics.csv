@@ -1,0 +1,4 @@
+store,total_products,unique_products,avg_price,median_price,avg_price_index,categories,brands,cities,median_deviation,volatility_score,leadership_freq,leadership_pct
+Al-Fatah,12,4,336.25,275.0,0.552,3,4,3,55.0,0.0,1.0,0.0
+Metro Online,231525,45810,1202.235,659.0,1.012,21,264,5,428.0,34.45,21823.0,47.6
+Naheed.pk,231525,45810,1171.168,644.0,0.988,21,264,5,418.0,34.61,23986.0,52.4

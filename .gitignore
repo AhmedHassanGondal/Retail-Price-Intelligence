@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+
+# Large data files (exceed GitHub 100MB limit)
+data/matched/matched_products.csv
+data/processed/all_products_cleaned.csv
+
+# OS
+Thumbs.db
+.DS_Store

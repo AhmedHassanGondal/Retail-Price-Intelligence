@@ -1,0 +1,89 @@
+{
+  "total_rows": 538440,
+  "missing_values": {
+    "product_name": {
+      "missing_pct": 0.0,
+      "status": "PASS"
+    },
+    "price": {
+      "missing_pct": 0.0,
+      "status": "PASS"
+    },
+    "store": {
+      "missing_pct": 0.0,
+      "status": "PASS"
+    },
+    "city": {
+      "missing_pct": 0.0,
+      "status": "PASS"
+    },
+    "brand": {
+      "missing_pct": 0.0,
+      "status": "PASS"
+    },
+    "category": {
+      "missing_pct": 0.0,
+      "status": "PASS"
+    }
+  },
+  "duplicates": {
+    "duplicate_rows": 0,
+    "duplicate_pct": 0.0,
+    "status": "PASS"
+  },
+  "price_bounds": {
+    "below_min": 0,
+    "above_max": 0,
+    "price_range": [
+      1.0,
+      495000.0
+    ],
+    "status": "PASS"
+  },
+  "outliers": {
+    "z_score_outliers": 5400,
+    "iqr_outliers": 56149,
+    "z_score_pct": 1.0,
+    "iqr_pct": 10.43,
+    "iqr_bounds": [
+      -1720.0,
+      3760.0
+    ],
+    "status": "PASS"
+  },
+  "unit_consistency": {
+    "unit_distribution": {
+      "G": 283953,
+      "ML": 139734,
+      "PCS": 67224
+    },
+    "null_units": 47529,
+    "null_unit_pct": 8.83,
+    "status": "PASS"
+  },
+  "store_distribution": {
+    "store_counts": {
+      "Al-Fatah": 75390,
+      "Metro Online": 231525,
+      "Naheed.pk": 231525
+    },
+    "city_counts": {
+      "Al-Fatah_Karachi": 25130,
+      "Al-Fatah_Lahore": 25130,
+      "Al-Fatah_Sialkot": 25130,
+      "Metro Online_Faisalabad": 46305,
+      "Metro Online_Hyderabad": 46305,
+      "Metro Online_Islamabad": 46305,
+      "Metro Online_Karachi": 46305,
+      "Metro Online_Lahore": 46305,
+      "Naheed.pk_Faisalabad": 46305,
+      "Naheed.pk_Islamabad": 46305,
+      "Naheed.pk_Karachi": 46305,
+      "Naheed.pk_Lahore": 46305,
+      "Naheed.pk_Rawalpindi": 46305
+    },
+    "num_stores": 3,
+    "status": "PASS"
+  },
+  "overall": "PASS"
+}
